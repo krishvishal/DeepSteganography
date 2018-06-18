@@ -1,7 +1,7 @@
 # DeepSteganography
 Hiding Images in Plain Sight: Deep Steganography
 
-##Unofficial implementation of NIPS 2017 paper: Hiding Images in Plain Sight: Deep Steganography in Pytorch. 
+### Unofficial implementation of NIPS 2017 paper: Hiding Images in Plain Sight: Deep Steganography in Pytorch. 
 
 [link to paper](https://papers.nips.cc/paper/6802-hiding-images-in-plain-sight-deep-steganography)
 
@@ -22,13 +22,13 @@ Hiding Images in Plain Sight: Deep Steganography
 > our approach compresses and distributes the secret image’s representation across
 > all of the available bits.
 
-###Architecture
+### Architecture
 
 The architecture consists of a preparation network, hiding network and reveal network. 
 
 ![Architecture](https://github.com/krishnavishalv/DeepSteganography/blob/master/images/architecture1.png)
 
-###Error equation
+### Error equation
 
 ![Error](https://github.com/krishnavishalv/DeepSteganography/blob/master/images/arch2.png)
 
