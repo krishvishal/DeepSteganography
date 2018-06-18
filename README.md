@@ -1,5 +1,6 @@
 # DeepSteganography
 Hiding Images in Plain Sight: Deep Steganography
+
 ##Unofficial implementation of NIPS 2017 paper: Hiding Images in Plain Sight: Deep Steganography in Pytorch. 
 [link to paper](https://papers.nips.cc/paper/6802-hiding-images-in-plain-sight-deep-steganography)
 
@@ -26,5 +27,9 @@ The architecture consists of a preparation network, hiding network and reveal ne
 
 ###Error equation
 ![Error](https://github.com/krishnavishalv/DeepSteganography/blob/master/images/arch2.png)
+
+
 ![Error equation](https://github.com/krishnavishalv/DeepSteganography/blob/master/images/steg_loss.png)
+
+
 The first error terms backprops only through preparation network and hiding network and the second error backprops through all networks.
